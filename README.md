@@ -5,9 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/pjsip-ios.svg?style=flat)](http://cocoadocs.org/docsets/pjsip-ios)
 [![Platform](https://img.shields.io/cocoapods/p/pjsip-ios.svg?style=flat)](http://cocoadocs.org/docsets/pjsip-ios)
 
-TODO: Add proper license
-TODO: add script to build libraray
-TODO: add x86_64 support for 64-bit simulator
+##TODO
+- [ ] Add proper license
+- [ ] Add script to build library
+- [ ] Add x86_64 support for 64-bit simulator
 
 ## Usage
 
