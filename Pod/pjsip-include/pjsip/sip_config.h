@@ -1,4 +1,4 @@
-/* $Id: sip_config.h 4770 2014-02-27 06:16:36Z nanang $ */
+/* $Id: sip_config.h 4899 2014-08-21 05:58:36Z nanang $ */
 /* 
  * Copyright (C) 2008-2011 Teluu Inc. (http://www.teluu.com)
  * Copyright (C) 2003-2008 Benny Prijono <benny@prijono.org>
@@ -136,6 +136,26 @@ typedef struct pjsip_cfg_t
 	 * Default is PJSIP_REQ_HAS_VIA_ALIAS.
 	 */
 	pj_bool_t req_has_via_alias;
+
+	/**
+	 * Resolve hostname when trying to get the network interface to be put 
+	 * in Via or Contact header.
+	 *
+	 * Default is PJSIP_RESOLVE_HOSTNAME_TO_GET_INTERFACE.
+	 */
+	pj_bool_t resolve_hostname_to_get_interface;
+
+	/**
+	 * Disable security check on incoming messages in a secure dialog.
+	 * A secure dialog is created when the request that creates the dialog
+	 * uses "sips" scheme in its request URI. Contact URI should use "sips"
+	 * scheme and the top-most Record-Route URI, if any, should use either
+	 * "sips" scheme or "transport=tls" param. See also
+	 * https://trac.pjsip.org/repos/ticket/1735.
+	 *
+	 * Default is PJ_FALSE.
+	 */
+	pj_bool_t disable_secure_dlg_check;
 
     } endpt;
 
@@ -363,6 +383,18 @@ PJ_INLINE(pjsip_cfg_t*) pjsip_cfg(void)
 #   define PJSIP_REQ_HAS_VIA_ALIAS		    PJ_TRUE
 #endif
 
+/**
+ * Resolve hostname when trying to get the network interface to be put in Via 
+ * or Contact header.
+ *
+ * This option can also be controlled at run-time by the
+ * \a resolve_hostname_to_get_interface setting in pjsip_cfg_t.
+ *
+ * Default is PJ_FALSE.
+ */
+#ifndef PJSIP_RESOLVE_HOSTNAME_TO_GET_INTERFACE
+#   define PJSIP_RESOLVE_HOSTNAME_TO_GET_INTERFACE  PJ_FALSE
+#endif
 
 /**
  * Accept call replace in early state when invite is not initiated

@@ -291,7 +291,7 @@ echo "Building for iPhoneSimulator (i386)..."
 make distclean > /dev/null
 DEVPATH=/Applications/XCode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/ \
 ARCH="-arch i386" \
-CFLAGS="$CFLAGS -O2 -m32 -mios-simulator-version-min=5.0" LDFLAGS="-O2 -m32 -mios-simulator-version-min=5.0" \
+CFLAGS="$CFLAGS -O2 -m32 -mios-simulator-version-min=5.0" LDFLAGS="$CFLAGS -O2 -m32 -mios-simulator-version-min=5.0" \
 $configure > /dev/null
 make dep > /dev/null
 make clean > /dev/null
@@ -302,7 +302,7 @@ echo "Building for iPhoneSimulator (x86_64)..."
 make distclean > /dev/null
 DEVPATH=/Applications/XCode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/ \
 ARCH="-arch x86_64" \
-CFLAGS="$CFLAGS -O2 -mios-simulator-version-min=5.0" LDFLAGS="-O2 -mios-simulator-version-min=5.0" \
+CFLAGS="$CFLAGS -O2 -mios-simulator-version-min=5.0" LDFLAGS="$CFLAGS -O2 -mios-simulator-version-min=5.0" \
 $configure > /dev/null
 make dep > /dev/null
 make clean > /dev/null
