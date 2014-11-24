@@ -58,6 +58,6 @@ EXTERNAL SOURCES:
     :git: https://github.com/petester42/pjsip-ios
 
 SPEC CHECKSUMS:
-  pjsip-ios: 8fee7646f9ad6321f384034536394ad0f795475b
+  pjsip-ios: becef75268b51ad9962e8d90abd465125b35dc97
 
 COCOAPODS: 0.34.4
