@@ -1,0 +1,3 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+pod "pjsip-ios", :git => "https://github.com/petester42/pjsip-ios"
