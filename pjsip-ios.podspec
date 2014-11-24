@@ -18,7 +18,9 @@ Pod::Spec.new do |s|
   s.xcconfig = {
     'GCC_PREPROCESSOR_DEFINITIONS' => 'PJ_AUTOCONF=1'
   }
-  
+
+  s.public_header_files = 'Pod/Headers/**'
+
   s.subspec 'pj' do |ss|
       
       ss.header_dir = 'pj'
