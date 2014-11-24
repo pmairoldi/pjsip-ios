@@ -1,17 +1,64 @@
 PODS:
-  - OpenSSL-Universal (1.0.1.j)
-  - pjsip-ios (0.1.2):
-    - OpenSSL-Universal (= 1.0.1.j)
+  - pjsip-ios (0.1.3):
+    - pjsip-ios/pj
+    - pjsip-ios/pj++
+    - pjsip-ios/pjlib-util
+    - pjsip-ios/pjmedia
+    - pjsip-ios/pjmedia-audiodev
+    - pjsip-ios/pjmedia-codec
+    - pjsip-ios/pjmedia-videodev
+    - pjsip-ios/pjnath
+    - pjsip-ios/pjsip
+    - pjsip-ios/pjsip-simple
+    - pjsip-ios/pjsip-ua
+    - pjsip-ios/pjsua-lib
+    - pjsip-ios/pjsua2
+  - pjsip-ios/pj (0.1.3):
+    - pjsip-ios/pj/compat
+  - pjsip-ios/pj++ (0.1.3):
+    - pjsip-ios/pj
+    - pjsip-ios/pjlib-util
+  - pjsip-ios/pj/compat (0.1.3)
+  - pjsip-ios/pjlib-util (0.1.3):
+    - pjsip-ios/pj
+  - pjsip-ios/pjmedia (0.1.3):
+    - pjsip-ios/pj
+  - pjsip-ios/pjmedia-audiodev (0.1.3):
+    - pjsip-ios/pj
+  - pjsip-ios/pjmedia-codec (0.1.3):
+    - pjsip-ios/pj
+  - pjsip-ios/pjmedia-videodev (0.1.3):
+    - pjsip-ios/pj
+  - pjsip-ios/pjnath (0.1.3):
+    - pjsip-ios/pj
+  - pjsip-ios/pjsip (0.1.3):
+    - pjsip-ios/pj
+  - pjsip-ios/pjsip-simple (0.1.3):
+    - pjsip-ios/pj
+  - pjsip-ios/pjsip-ua (0.1.3):
+    - pjsip-ios/pj
+  - pjsip-ios/pjsua-lib (0.1.3):
+    - pjsip-ios/pjlib-util
+    - pjsip-ios/pjmedia
+    - pjsip-ios/pjmedia-audiodev
+    - pjsip-ios/pjmedia-codec
+    - pjsip-ios/pjmedia-videodev
+    - pjsip-ios/pjnath
+    - pjsip-ios/pjsip
+    - pjsip-ios/pjsip-simple
+    - pjsip-ios/pjsip-ua
+  - pjsip-ios/pjsua2 (0.1.3):
+    - pjsip-ios/pjsua-lib
 
 DEPENDENCIES:
-  - pjsip-ios (from `https://github.com/petester42/pjsip-ios`)
+  - pjsip-ios (from `https://github.com/petester42/pjsip-ios`, branch `podspec-improvements`)
 
 EXTERNAL SOURCES:
   pjsip-ios:
+    :branch: podspec-improvements
     :git: https://github.com/petester42/pjsip-ios
 
 SPEC CHECKSUMS:
-  OpenSSL-Universal: 42d8d3e90a02b2b7d2ab5b5d56bbc15884f41150
-  pjsip-ios: 6fb672f39f9ec8523b05a71a0fa1c83b983d7082
+  pjsip-ios: ce3d9b0fac40378692e0af59094f8cf6c34910e1
 
 COCOAPODS: 0.34.4

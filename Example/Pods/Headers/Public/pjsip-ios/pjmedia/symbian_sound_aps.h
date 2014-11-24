@@ -1,0 +1,1 @@
+../../../../pjsip-ios/Pod/Headers/pjmedia/symbian_sound_aps.h

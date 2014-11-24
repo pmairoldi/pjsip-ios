@@ -13,13 +13,13 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '6.0'
   s.requires_arc = false
-  # s.dependency 'OpenSSL-Universal', '1.0.1.j'
+  s.dependency 'OpenSSL-Universal', '1.0.1.j'
   
   s.xcconfig = {
     'GCC_PREPROCESSOR_DEFINITIONS' => 'PJ_AUTOCONF=1'
   }
 
-  s.public_header_files = 'Pod/Headers/*.{h,hpp}'
+  # s.public_header_files = 'Pod/Headers/*.{h,hpp}'
   s.source_files = 'Pod/Headers/**/**/*.{h,hpp}'
 
   s.subspec 'pj' do |ss|

@@ -1,0 +1,1 @@
+../../../../pjsip-ios/Pod/Headers/pjmedia/config_auto.h
