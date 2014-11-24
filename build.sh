@@ -8,7 +8,7 @@ if [ ! -d ${BUILD_DIR} ]; then
     mkdir ${BUILD_DIR}
 fi
 
-PJSIP_URL="http://www.pjsip.org/release/2.2.1/pjproject-2.2.1.tar.bz2"
+PJSIP_URL="http://www.pjsip.org/release/2.3/pjproject-2.3.tar.bz2"
 PJSIP_ARCHIVE=${BUILD_DIR}/`basename ${PJSIP_URL}`
 OPENSSL_URL="https://raw.githubusercontent.com/x2on/OpenSSL-for-iPhone/master/build-libssl.sh"
 OPENSSL_DIR=${BUILD_DIR}/openssl
@@ -291,7 +291,7 @@ echo "Building for iPhoneSimulator (i386)..."
 make distclean > /dev/null
 DEVPATH=/Applications/XCode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/ \
 ARCH="-arch i386" \
-CFLAGS="$CFLAGS -O2 -m32 -miphoneos-version-min=5.0" LDFLAGS="$CFLAGS -O2 -m32 -miphoneos-version-min=5.0" \
+CFLAGS="$CFLAGS -O2 -m32 -mios-simulator-version-min=5.0" LDFLAGS="$CFLAGS -O2 -m32 -mios-simulator-version-min=5.0" \
 $configure > /dev/null
 make dep > /dev/null
 make clean > /dev/null
@@ -302,7 +302,7 @@ echo "Building for iPhoneSimulator (x86_64)..."
 make distclean > /dev/null
 DEVPATH=/Applications/XCode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/ \
 ARCH="-arch x86_64" \
-CFLAGS="$CFLAGS -O2 -m32 -miphoneos-version-min=5.0" LDFLAGS="$CFLAGS -O2 -m32 -miphoneos-version-min=5.0" \
+CFLAGS="$CFLAGS -O2 -mios-simulator-version-min=5.0" LDFLAGS="$CFLAGS -O2 -mios-simulator-version-min=5.0" \
 $configure > /dev/null
 make dep > /dev/null
 make clean > /dev/null

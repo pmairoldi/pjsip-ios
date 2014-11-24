@@ -1,7 +1,6 @@
-/* $Id: ffmpeg_vid_codecs.h 4049 2012-04-13 06:24:23Z ming $ */
+/* $Id: openh264.h 4815 2014-04-10 10:01:07Z bennylp $ */
 /* 
- * Copyright (C) 2008-2011 Teluu Inc. (http://www.teluu.com)
- * Copyright (C) 2003-2008 Benny Prijono <benny@prijono.org>
+ * Copyright (C) 2014 Teluu Inc. (http://www.teluu.com)
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,23 +16,28 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA 
  */
-#ifndef __PJMEDIA_CODECS_FFMPEG_VID_H__
-#define __PJMEDIA_CODECS_FFMPEG_VID_H__
-
+#ifndef __PJMEDIA_CODEC_OPENH264_H__
+#define __PJMEDIA_CODEC_OPENH264_H__
 
 #include <pjmedia-codec/types.h>
 #include <pjmedia/vid_codec.h>
 
+/**
+ * @file pjmedia-codec/openh264.h
+ * @brief Open H.264 codec
+ */
+
+
 PJ_BEGIN_DECL
 
 /**
- * @defgroup PJMEDIA_CODEC_VID_FFMPEG FFmpeg Codecs
+ * @defgroup PJMEDIA_CODEC_OPENH264 Open H.264 Codec
  * @ingroup PJMEDIA_CODEC_VID_CODECS
  * @{
  */
 
 /**
- * Initialize and register FFMPEG video codecs factory to pjmedia endpoint.
+ * Initialize and register OpenH264 codec factory.
  *
  * @param mgr	    The video codec manager instance where this codec will
  * 		    be registered to. Specify NULL to use default instance
@@ -43,25 +47,23 @@ PJ_BEGIN_DECL
  *
  * @return	    PJ_SUCCESS on success.
  */
-PJ_DECL(pj_status_t) pjmedia_codec_ffmpeg_vid_init(pjmedia_vid_codec_mgr *mgr,
-                                                   pj_pool_factory *pf);
-
+PJ_DECL(pj_status_t) pjmedia_codec_openh264_vid_init(pjmedia_vid_codec_mgr *mgr,
+                                                     pj_pool_factory *pf);
 
 /**
- * Unregister FFMPEG video codecs factory from the video codec manager and
- * deinitialize the codecs library.
+ * Unregister OpenH264 video codecs factory from the video codec manager and
+ * deinitialize the codec library.
  *
  * @return	    PJ_SUCCESS on success.
  */
-PJ_DECL(pj_status_t) pjmedia_codec_ffmpeg_vid_deinit(void);
+PJ_DECL(pj_status_t) pjmedia_codec_openh264_vid_deinit(void);
+
+
+/**
+ * @}  PJMEDIA_CODEC_OPENH264
+ */
 
 
 PJ_END_DECL
 
-
-/**
- * @}
- */
-
-#endif	/* __PJMEDIA_CODECS_FFMPEG_VID_H__ */
-
+#endif	/* __PJMEDIA_CODEC_OPENH264_H__ */

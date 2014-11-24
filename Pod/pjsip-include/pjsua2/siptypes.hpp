@@ -336,7 +336,7 @@ struct TransportConfig : public PersistentObject
      *
      * Default is QoS not set.
      */
-    pj_qos_type	qosParams;
+    pj_qos_params	qosParams;
 
 public:
     /** Default constructor initialises with default values */

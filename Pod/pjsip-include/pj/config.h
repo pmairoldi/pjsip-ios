@@ -1,4 +1,4 @@
-/* $Id: config.h 4795 2014-03-14 06:58:10Z riza $ */
+/* $Id: config.h 4913 2014-09-03 08:39:58Z nanang $ */
 /* 
  * Copyright (C) 2008-2011 Teluu Inc. (http://www.teluu.com)
  * Copyright (C) 2003-2008 Benny Prijono <benny@prijono.org>
@@ -1188,10 +1188,10 @@ PJ_BEGIN_DECL
 #define PJ_VERSION_NUM_MAJOR	2
 
 /** PJLIB version minor number. */
-#define PJ_VERSION_NUM_MINOR	2
+#define PJ_VERSION_NUM_MINOR	3
 
 /** PJLIB version revision number. */
-#define PJ_VERSION_NUM_REV	1
+#define PJ_VERSION_NUM_REV	0
 
 /**
  * Extra suffix for the version (e.g. "-trunk"), or empty for
