@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'Pod/pjsip-include/**'
   
-  s.preserve_paths = 'Pod/pjsip-include/**/**/*{h,hpp}', 'Pod/pjsip-lib/*.a'
+  s.preserve_paths = 'Pod/pjsip-include/**/**/*{h,hpp}'
   
   s.vendored_libraries = 'Pod/pjsip-lib/*.a'
 
