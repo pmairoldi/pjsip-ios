@@ -26,14 +26,14 @@ Pod::Spec.new do |s|
       
       ss.header_dir = 'pj'
       ss.frameworks = 'CFNetwork'
-      ss.public_header_files = 'Pod/Headers/pj/**'
+      ss.public_header_files = 'Pod/Headers/pj/*'
       ss.vendored_libraries = 'Pod/Lib/pjlib/*.a'
 
       ss.subspec 'compat' do |sss|
         
         sss.header_dir = 'pj/compat'
         sss.frameworks = 'CFNetwork'
-        sss.public_header_files = 'Pod/Headers/pj/compat/**'
+        sss.public_header_files = 'Pod/Headers/pj/compat/*'
         sss.vendored_libraries = 'Pod/Lib/pjlib/*.a'
 
       end
@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
   s.subspec 'pjlib-util' do |ss|
      
       ss.header_dir = 'pjlib-util'
-      ss.public_header_files = 'Pod/Headers/pjlib-util/**'
+      ss.public_header_files = 'Pod/Headers/pjlib-util/*'
       ss.vendored_libraries = 'Pod/Lib/pjlib-util/*.a'
 
       ss.dependency 'pjsip-ios/pj'
@@ -54,7 +54,7 @@ Pod::Spec.new do |s|
      
     ss.header_dir = 'pj++'
     ss.frameworks = 'CFNetwork'
-    ss.public_header_files = 'Pod/Headers/pj++/**'
+    ss.public_header_files = 'Pod/Headers/pj++/*'
     ss.vendored_libraries = 'Pod/Lib/pjlib/*.a'
     
     ss.dependency 'pjsip-ios/pj'
@@ -66,7 +66,7 @@ Pod::Spec.new do |s|
      
       ss.header_dir = 'pjmedia'
       ss.frameworks = 'AudioToolbox', 'AVFoundation'
-      ss.public_header_files = 'Pod/Headers/pjmedia/**'
+      ss.public_header_files = 'Pod/Headers/pjmedia/*'
       ss.vendored_libraries = 'Pod/Lib/pjmedia/*.a'
     
       ss.dependency 'pjsip-ios/pj'
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
      
     ss.header_dir = 'pjmedia-audiodev'
     ss.frameworks = 'AudioToolbox', 'AVFoundation'
-    ss.public_header_files = 'Pod/Headers/pjmedia-audiodev/**'
+    ss.public_header_files = 'Pod/Headers/pjmedia-audiodev/*'
     ss.vendored_libraries = 'Pod/Lib/pjmedia/*.a'
     
     ss.dependency 'pjsip-ios/pj'
@@ -88,7 +88,7 @@ Pod::Spec.new do |s|
      
     ss.header_dir = 'pjmedia-codec'
     ss.frameworks = 'AudioToolbox', 'AVFoundation'
-    ss.public_header_files = 'Pod/Headers/pjmedia-codec/**'
+    ss.public_header_files = 'Pod/Headers/pjmedia-codec/*'
     ss.vendored_libraries = 'Pod/Lib/pjmedia/*.a'
     
     ss.dependency 'pjsip-ios/pj'
@@ -99,7 +99,7 @@ Pod::Spec.new do |s|
      
     ss.header_dir = 'pjmedia-videodev'
     ss.frameworks = 'AudioToolbox', 'AVFoundation'
-    ss.public_header_files = 'Pod/Headers/pjmedia-videodev/**'
+    ss.public_header_files = 'Pod/Headers/pjmedia-videodev/*'
     ss.vendored_libraries = 'Pod/Lib/pjmedia/*.a'
     
     ss.dependency 'pjsip-ios/pj'
@@ -109,7 +109,7 @@ Pod::Spec.new do |s|
   s.subspec 'pjnath' do |ss|
      
     ss.header_dir = 'pjnath'
-    ss.public_header_files = 'Pod/Headers/pjnath/**'
+    ss.public_header_files = 'Pod/Headers/pjnath/*'
     ss.vendored_libraries = 'Pod/Lib/pjnath/*.a'
     
     ss.dependency 'pjsip-ios/pj'
@@ -119,7 +119,7 @@ Pod::Spec.new do |s|
   s.subspec 'pjsip' do |ss|
       
     ss.header_dir = 'pjsip'
-    ss.public_header_files = 'Pod/Headers/pjsip/**'
+    ss.public_header_files = 'Pod/Headers/pjsip/*'
     ss.vendored_libraries = 'Pod/Lib/pjsip/*.a'
 
     ss.dependency 'pjsip-ios/pj'
@@ -129,7 +129,7 @@ Pod::Spec.new do |s|
   s.subspec 'pjsip-simple' do |ss|
      
     ss.header_dir = 'pjsip-simple'
-    ss.public_header_files = 'Pod/Headers/pjsip-simple/**'
+    ss.public_header_files = 'Pod/Headers/pjsip-simple/*'
     ss.vendored_libraries = 'Pod/Lib/pjsip/*.a'
     
     ss.dependency 'pjsip-ios/pj'
@@ -139,7 +139,7 @@ Pod::Spec.new do |s|
   s.subspec 'pjsip-ua' do |ss|
       
     ss.header_dir = 'pjsip-ua'
-    ss.public_header_files = 'Pod/Headers/pjsip-ua/**'
+    ss.public_header_files = 'Pod/Headers/pjsip-ua/*'
     ss.vendored_libraries = 'Pod/Lib/pjsip/*.a'
 
     ss.dependency 'pjsip-ios/pj'
@@ -149,7 +149,7 @@ Pod::Spec.new do |s|
   s.subspec 'pjsua-lib' do |ss|
       
     ss.header_dir = 'pjsua-lib'
-    ss.public_header_files = 'Pod/Headers/pjsua-lib/**'
+    ss.public_header_files = 'Pod/Headers/pjsua-lib/*'
     ss.vendored_libraries = 'Pod/Lib/pjsip/*.a'
     
 
@@ -170,7 +170,7 @@ Pod::Spec.new do |s|
   s.subspec 'pjsua2' do |ss|
      
     ss.header_dir = 'pjsua2'
-    ss.public_header_files = 'Pod/Headers/pjsua2/**'
+    ss.public_header_files = 'Pod/Headers/pjsua2/*'
     ss.vendored_libraries = 'Pod/Lib/pjsip/*.a'
     
   end
