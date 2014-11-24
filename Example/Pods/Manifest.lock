@@ -75,6 +75,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   OpenSSL-Universal: 42d8d3e90a02b2b7d2ab5b5d56bbc15884f41150
-  pjsip-ios: c3d4c6069cea5e4cbed11d07a6f0648b0c173027
+  pjsip-ios: c67aa33afc5deb94a3d0192a4720f8a3ac410f20
 
 COCOAPODS: 0.34.4
