@@ -1,1 +1,0 @@
-../../../../pjsip-ios/Pod/Headers/pj/config_site_sample.h

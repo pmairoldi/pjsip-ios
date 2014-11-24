@@ -11,7 +11,7 @@
 // This library does not follow semantic-versioning,
 // so we were not able to define version macros.
 // Please contact the author.
-// Version: 1.0.1.j-2.
+// Version: 1.0.1.j.
 
 // pjsip-ios
 #define COCOAPODS_POD_AVAILABLE_pjsip_ios

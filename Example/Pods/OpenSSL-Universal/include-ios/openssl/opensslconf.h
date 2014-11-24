@@ -5,8 +5,8 @@
 extern "C" {
 #endif
 /* OpenSSL was configured with the following options: */
-#ifndef OPENSSL_SYSNAME_iOS
-# define OPENSSL_SYSNAME_iOS
+#ifndef OPENSSL_SYSNAME_MACOSX
+# define OPENSSL_SYSNAME_MACOSX
 #endif
 #ifndef OPENSSL_DOING_MAKEDEPEND
 
@@ -46,9 +46,6 @@ extern "C" {
 
 #ifndef OPENSSL_THREADS
 # define OPENSSL_THREADS
-#endif
-#ifndef OPENSSL_NO_ASM
-# define OPENSSL_NO_ASM
 #endif
 #ifndef OPENSSL_NO_DYNAMIC_ENGINE
 # define OPENSSL_NO_DYNAMIC_ENGINE
@@ -91,6 +88,8 @@ extern "C" {
 # endif
 #endif
 
+#define OPENSSL_CPUID_OBJ
+
 /* crypto/opensslconf.h.in */
 
 /* Generate 80386 code? */
@@ -130,7 +129,7 @@ extern "C" {
  * - Intel P6 because partial register stalls are very expensive;
  * - elder Alpha because it lacks byte load/store instructions;
  */
-#define RC4_INT unsigned char
+#define RC4_INT unsigned int
 #endif
 #if !defined(RC4_CHUNK)
 /*

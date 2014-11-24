@@ -1,1 +1,0 @@
-../../../../pjsip-ios/Pod/Headers/pjnath/ice_session.h
