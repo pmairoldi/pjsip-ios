@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   }
 
   s.public_header_files = 'Pod/Headers/*'
-  s.source_files = 'Pod/Headers/*'
+  s.source_files = 'Pod/Headers/**/**/*'
 
   s.subspec 'pj' do |ss|
       
