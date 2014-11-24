@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "pjsip-ios"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "PJSIP for ios"
   s.description      = <<-DESC
                        Other pods for pjsip were just not in a stable state. So I am creating a new one.
@@ -20,14 +20,15 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/petester42/pjsip-ios.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/petester42'
 
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
+  s.platform     = :ios, '6.0'
+  s.requires_arc = false
+  s.dependency 'OpenSSL-Universal', '1.0.1.j'
 
   s.public_header_files = 'Pod/pjsip-include/**'
   
   s.preserve_paths = 'Pod/pjsip-include/**/**/*{h,hpp}', 'Pod/pjsip-lib/*.a'
   
-  s.libraries = 'g7221codec-arm-apple-darwin9', 'gsmcodec-arm-apple-darwin9', 'ilbccodec-arm-apple-darwin9', 'pj-arm-apple-darwin9', 'pjlib-util-arm-apple-darwin9', 'pjmedia-arm-apple-darwin9', 'pjmedia-audiodev-arm-apple-darwin9', 'pjmedia-codec-arm-apple-darwin9', 'pjmedia-videodev-arm-apple-darwin9', 'pjnath-arm-apple-darwin9', 'pjsip-arm-apple-darwin9', 'pjsip-simple-arm-apple-darwin9', 'pjsip-ua-arm-apple-darwin9', 'pjsua-arm-apple-darwin9', 'pjsua2-arm-apple-darwin9', 'resample-arm-apple-darwin9', 'speex-arm-apple-darwin9', 'srtp-arm-apple-darwin9'
+  s.vendored_libraries = 'Pod/pjsip-lib/*.a'
 
   s.frameworks = 'CFNetwork', 'AudioToolbox', 'AVFoundation'
 
@@ -35,7 +36,6 @@ Pod::Spec.new do |s|
 
   s.xcconfig = {
     'GCC_PREPROCESSOR_DEFINITIONS' => 'PJ_AUTOCONF=1',
-    'HEADER_SEARCH_PATHS'  => '$(PODS_ROOT)/pjsip-ios/Pod/pjsip-include',
-    'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/pjsip-ios/Pod/pjsip-lib'
+    'HEADER_SEARCH_PATHS'  => '$(PODS_ROOT)/pjsip-ios/Pod/pjsip-include'
   }
 end

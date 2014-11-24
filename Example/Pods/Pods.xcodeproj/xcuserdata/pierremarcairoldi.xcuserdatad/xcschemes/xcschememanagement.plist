@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-OpenSSL-Universal.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-pjsip-ios.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>276F567C9776C627447A5A92</key>
+		<key>304C09DC78B58BA8AF547BED</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3889FD2D135C5C5D75FBFDEC</key>
+		<key>3082F43B8C2BC2AC4CE1BCAA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>785C1E5AA335A8CE66D22F4B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
