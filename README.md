@@ -1,6 +1,5 @@
 # pjsip-ios
 
-[![CI Status](http://img.shields.io/travis/Pierre-Marc Airoldi/pjsip-ios.svg?style=flat)](https://travis-ci.org/Pierre-Marc Airoldi/pjsip-ios)
 [![Version](https://img.shields.io/cocoapods/v/pjsip-ios.svg?style=flat)](http://cocoadocs.org/docsets/pjsip-ios)
 [![License](https://img.shields.io/cocoapods/l/pjsip-ios.svg?style=flat)](http://cocoadocs.org/docsets/pjsip-ios)
 [![Platform](https://img.shields.io/cocoapods/p/pjsip-ios.svg?style=flat)](http://cocoadocs.org/docsets/pjsip-ios)
