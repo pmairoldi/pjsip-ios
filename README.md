@@ -5,11 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/pjsip-ios.svg?style=flat)](http://cocoadocs.org/docsets/pjsip-ios)
 [![Platform](https://img.shields.io/cocoapods/p/pjsip-ios.svg?style=flat)](http://cocoadocs.org/docsets/pjsip-ios)
 
-##TODO
-- [ ] Add proper license
-- [ ] Add script to build library
-- [ ] Add x86_64 support for 64-bit simulator
-
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
