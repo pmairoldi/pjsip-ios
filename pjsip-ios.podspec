@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   }
 
   s.public_header_files = 'Pod/Headers/*.{h,hpp}'
-  s.source_files = 'Pod/Headers/**/**/*.{h,hpp}'
+  s.header_mappings_dir = 'Pod'
 
   s.subspec 'pj' do |ss|
       

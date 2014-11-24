@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '6.0'
   s.requires_arc = false
-  # s.dependency 'OpenSSL-Universal', '1.0.1.j'
+  s.dependency 'OpenSSL-Universal', '1.0.1.j-2'
   
   s.xcconfig = {
     'GCC_PREPROCESSOR_DEFINITIONS' => 'PJ_AUTOCONF=1'
@@ -167,12 +167,14 @@ Pod::Spec.new do |s|
 
   end
 
-  # s.subspec 'pjsua2' do |ss|
+  s.subspec 'pjsua2' do |ss|
      
-  #   ss.header_dir = 'pjsua2'
-  #   ss.public_header_files = 'Pod/Headers/pjsua2/*.{h,hpp}'
-  #   ss.vendored_libraries = 'Pod/Lib/pjsip/*.a'
+    ss.header_dir = 'pjsua2'
+    ss.public_header_files = 'Pod/Headers/pjsua2/*.{h,hpp}'
+    ss.vendored_libraries = 'Pod/Lib/pjsip/*.a'
     
-  # end
+    ss.dependency 'pjsip-ios/pjsua-lib'
+
+  end
 
 end
