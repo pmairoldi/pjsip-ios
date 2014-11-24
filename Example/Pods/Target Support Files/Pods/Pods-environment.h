@@ -90,9 +90,3 @@
 #define COCOAPODS_VERSION_MINOR_pjsip_ios_pjsua_lib 1
 #define COCOAPODS_VERSION_PATCH_pjsip_ios_pjsua_lib 3
 
-// pjsip-ios/pjsua2
-#define COCOAPODS_POD_AVAILABLE_pjsip_ios_pjsua2
-#define COCOAPODS_VERSION_MAJOR_pjsip_ios_pjsua2 0
-#define COCOAPODS_VERSION_MINOR_pjsip_ios_pjsua2 1
-#define COCOAPODS_VERSION_PATCH_pjsip_ios_pjsua2 3
-
