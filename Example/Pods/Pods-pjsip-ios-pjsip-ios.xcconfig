@@ -1,4 +1,0 @@
-PODS_PJSIP_IOS_PJSIP_IOS_GCC_PREPROCESSOR_DEFINITIONS = PJ_AUTOCONF=1
-PODS_PJSIP_IOS_PJSIP_IOS_HEADER_SEARCH_PATHS = $(PODS_ROOT)/pjsip-ios/Pod/pjsip-include
-PODS_PJSIP_IOS_PJSIP_IOS_LIBRARY_SEARCH_PATHS = $(PODS_ROOT)/pjsip-ios/Pod/pjsip-lib
-PODS_PJSIP_IOS_PJSIP_IOS_OTHER_LDFLAGS = -lg7221codec-arm-apple-darwin9 -lgsmcodec-arm-apple-darwin9 -lilbccodec-arm-apple-darwin9 -lpj-arm-apple-darwin9 -lpjlib-util-arm-apple-darwin9 -lpjmedia-arm-apple-darwin9 -lpjmedia-audiodev-arm-apple-darwin9 -lpjmedia-codec-arm-apple-darwin9 -lpjmedia-videodev-arm-apple-darwin9 -lpjnath-arm-apple-darwin9 -lpjsip-arm-apple-darwin9 -lpjsip-simple-arm-apple-darwin9 -lpjsip-ua-arm-apple-darwin9 -lpjsua-arm-apple-darwin9 -lpjsua2-arm-apple-darwin9 -lresample-arm-apple-darwin9 -lspeex-arm-apple-darwin9 -lsrtp-arm-apple-darwin9 -framework AVFoundation -framework AudioToolbox -framework CFNetwork

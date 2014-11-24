@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "pjsip-ios"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "PJSIP for ios"
   s.description      = <<-DESC
                        Other pods for pjsip were just not in a stable state. So I am creating a new one.

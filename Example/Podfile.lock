@@ -1,20 +1,14 @@
 PODS:
-  - Expecta (0.3.1)
-  - pjsip-ios (0.1.0)
-  - Specta (0.2.1)
+  - pjsip-ios (0.1.1)
 
 DEPENDENCIES:
-  - Expecta
-  - pjsip-ios (from `../`)
-  - Specta (~> 0.2.1)
+  - pjsip-ios (from `https://github.com/hiroeorz/pjsip-ios`)
 
 EXTERNAL SOURCES:
   pjsip-ios:
-    :path: ../
+    :git: https://github.com/hiroeorz/pjsip-ios
 
 SPEC CHECKSUMS:
-  Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
-  pjsip-ios: 25f88f7dd68b4c760497e33794b0d47783195136
-  Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
+  pjsip-ios: d0cb81654c6c1f70c5012033a3e30e3c4b87f20a
 
-COCOAPODS: 0.33.1
+COCOAPODS: 0.34.4

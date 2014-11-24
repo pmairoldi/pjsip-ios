@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3BA96867B2AA478FA485F430"
+               BlueprintIdentifier = "3889FD2D135C5C5D75FBFDEC"
                BuildableName = "libPods-pjsip-ios.a"
                BlueprintName = "Pods-pjsip-ios"
                ReferencedContainer = "container:Pods.xcodeproj">

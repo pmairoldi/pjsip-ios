@@ -4,32 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Tests-Expecta.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Tests-Specta.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Tests-pjsip-ios.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Tests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-pjsip-ios-pjsip-ios.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-pjsip-ios.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,32 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3BA96867B2AA478FA485F430</key>
+		<key>276F567C9776C627447A5A92</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>47F190BF560442D78BCF103F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4B22EA1F631F4882B0B85A57</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5ACAA6F273044EFC91C0E2AD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A95E2C56E2C1484D8716725C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E71421B92AEE42688FDF3E09</key>
+		<key>3889FD2D135C5C5D75FBFDEC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
