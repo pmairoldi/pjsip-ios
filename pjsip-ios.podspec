@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
     'GCC_PREPROCESSOR_DEFINITIONS' => 'PJ_AUTOCONF=1'
   }
 
-  # s.public_header_files = 'Pod/Headers/*.{h,hpp}'
+  s.public_header_files = 'Pod/Headers/*.{h,hpp}'
   s.source_files = 'Pod/Headers/**/**/*.{h,hpp}'
 
   s.subspec 'pj' do |ss|
