@@ -7,8 +7,6 @@
 
 ##TODO
 - [ ] Add proper license
-- [ ] Add script to build library
-- [ ] Add x86_64 support for 64-bit simulator
 
 ## Usage
 
