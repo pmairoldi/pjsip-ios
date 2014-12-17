@@ -1,1 +1,1 @@
-../../../../pjsip-ios/Pod/pjsip-include/pjsip_simple.h
+../../../../../../Pod/pjsip-include/pjsip_simple.h

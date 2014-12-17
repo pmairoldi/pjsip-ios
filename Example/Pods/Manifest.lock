@@ -4,14 +4,14 @@ PODS:
     - OpenSSL-Universal (= 1.0.1.j)
 
 DEPENDENCIES:
-  - pjsip-ios (from `https://github.com/petester42/pjsip-ios`)
+  - pjsip-ios (from `../`)
 
 EXTERNAL SOURCES:
   pjsip-ios:
-    :git: https://github.com/petester42/pjsip-ios
+    :path: ../
 
 SPEC CHECKSUMS:
   OpenSSL-Universal: 42d8d3e90a02b2b7d2ab5b5d56bbc15884f41150
-  pjsip-ios: 6fb672f39f9ec8523b05a71a0fa1c83b983d7082
+  pjsip-ios: 3f3c0e6da5d037216b98f12aeae794073fea2115
 
-COCOAPODS: 0.34.4
+COCOAPODS: 0.35.0

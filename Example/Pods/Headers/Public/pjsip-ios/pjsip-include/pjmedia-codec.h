@@ -1,1 +1,1 @@
-../../../../pjsip-ios/Pod/pjsip-include/pjmedia-codec.h
+../../../../../../Pod/pjsip-include/pjmedia-codec.h

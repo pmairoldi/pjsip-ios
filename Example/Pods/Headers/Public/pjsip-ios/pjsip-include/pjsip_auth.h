@@ -1,1 +1,1 @@
-../../../../pjsip-ios/Pod/pjsip-include/pjsip_auth.h
+../../../../../../Pod/pjsip-include/pjsip_auth.h
