@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "pjsip-ios"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "PJSIP for ios"
   s.description      = <<-DESC
                        Other pods for pjsip were just not in a stable state. So I am creating a new one.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '6.0'
   s.requires_arc = false
-  s.dependency 'OpenSSL-Universal', '1.0.1.j'
+  s.dependency 'OpenSSL-Universal', '1.0.1.k'
 
   s.public_header_files = 'Pod/pjsip-include/**'
   
