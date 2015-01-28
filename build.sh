@@ -248,9 +248,7 @@ tar -xf ${PJSIP_ARCHIVE}
 popd > /dev/null
 
 echo "Creating config.h..."
-echo "#define PJ_CONFIG_IPHONE 1
-#define PJSUA_MAX_CALLS 32
-#include <pj/config_site_sample.h>" > ${PJSIP_DIR}/pjlib/include/pj/config_site.h
+cp config_site.h ${PJSIP_DIR}/pjlib/include/pj/config_site.h
 
 export CFLAGS="-I${OPENSSL_DIR}/include"
 export LDFLAGS="-L${OPENSSL_DIR}/lib"
